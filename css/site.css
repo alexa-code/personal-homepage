@@ -1,0 +1,119 @@
+body {
+    text-align:center;
+    font-family: 'Wire One';
+    cursor:default;
+}
+
+.hero-unit {
+    background-color: white;
+}
+
+#alexaface {
+    background: url('../img/me.jpg');
+    background-size:cover;
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    margin: 0 auto;
+    border: 5px solid black;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+#hi {
+    margin-right:10px;
+    font-size:25px;
+    margin-bottom:60px;
+}
+
+#name {
+    font-family: 'Dawning of a New Day';
+    font-size:100px;
+    margin-right:3px;
+    margin-left:3px;
+    margin-top:-20px;
+    margin-bottom:-20px;
+}
+
+#projects {
+    margin-bottom: 200px;
+}
+.my-line {
+    border-color:#D1D1D1;
+    background-color:#D1D1D1;
+}
+
+#top-line {
+    margin-top:30px;
+}
+
+#project-line {
+    margin-bottom:150px;
+    margin-top:-80px;
+}
+
+#top-nav {
+    margin-top:30px;
+    position:fixed;
+    left:0;
+    right:0;
+}
+
+a{
+    color:black;
+}
+a:hover {
+    text-decoration: none;
+    color:rgba(200,200,200,1);
+}
+li {
+    display: inline;
+    padding:70px;
+    font-size:50px;
+}
+
+.hero-unit {
+    margin-top: 50px;
+}
+#about-me {
+    font-size:30px;
+    padding-top:200px;
+    line-height:40px;
+    margin-bottom:30px;
+}
+.game-image {
+    opacity:0.7;
+    height:200px;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+#face-img {
+    height:100px;
+    margin-left:35px;
+}
+
+#coming-soon {
+    margin-left: -80px;
+}
+
+.game-image:hover {
+    opacity:1;
+    border: 5px solid #198006;
+    box-shadow: 4px 4px 5px #18590C;
+}
+
+.container {
+    margin-bottom:5em;
+}
+
+.games {
+    font-size:50px;
+}
+
+.row-header {
+    font-size:40px;
+    margin-top:30px;
+    margin-bottom:2em;
+    line-height:50px;
+}
