@@ -4,8 +4,8 @@ body {
     cursor:default;
 }
 
-.hero-unit {
-    background-color: white;
+#top {
+    padding-top:30px;
 }
 
 #alexaface {
@@ -16,7 +16,7 @@ body {
     border-radius:50%;
     margin: 0 auto;
     border: 5px solid black;
-    margin-top:150px;
+    margin-top:200px;
     margin-bottom:50px;
 }
 
@@ -38,35 +38,19 @@ body {
 #projects {
     margin-bottom: 200px;
 }
-.my-line {
-    border-color:#D1D1D1;
-    background-color:#D1D1D1;
-}
 
-#top-line {
-    margin-top:30px;
-}
-
-#project-line {
-    margin-bottom:150px;
-    margin-top:-80px;
-}
-
-#contact-line {
-    margin-top:-40px;
-    margin-bottom:150px;
-}
-
-a{
+a {
     color:black;
-}
-a:hover {
     text-decoration: none;
+}
+
+a:hover {
     color:rgba(200,200,200,1);
 }
 
 #top-nav {
-    padding-top:30px;
+    margin-top:-50px;
+    padding-top:20px;
     position:fixed;
     left:0;
     right:0;
@@ -124,7 +108,7 @@ li {
 
 #face-img {
     height:100px;
-    margin-left:35px;
+    margin-top: -30px;
 }
 
 #coming-soon {
@@ -150,4 +134,14 @@ li {
     margin-top:30px;
     margin-bottom:2em;
     line-height:50px;
+}
+
+h2 {
+    font-size:60px;
+    margin-bottom: -50px;
+}
+.my-line {
+    width: 80%;
+    height: .5px;
+    margin-bottom: 200px;
 }
