@@ -89,6 +89,10 @@ li {
     padding:30px;
 }
 
+#top-nav li > a.active {
+    color:rgba(200,200,200,1);
+}
+
 #contact {
     margin-bottom:250px;
 }
