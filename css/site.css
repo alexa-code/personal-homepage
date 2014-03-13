@@ -21,7 +21,6 @@ body {
 }
 
 #hi {
-    margin-right:10px;
     font-size:25px;
     margin-bottom:60px;
 }
@@ -29,10 +28,7 @@ body {
 #name {
     font-family: 'Dawning of a New Day';
     font-size:100px;
-    margin-right:3px;
-    margin-left:3px;
-    margin-top:-20px;
-    margin-bottom:-20px;
+    margin: 0 3px 50px 0;
 }
 
 #projects {
@@ -44,17 +40,19 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color:rgba(200,200,200,1);
+.header-text {
+    margin: 0 auto;
+    width: 550px;
 }
 
 #top-nav {
+    text-transform: lowercase;
     margin-top:-50px;
     padding-top:20px;
     position:fixed;
     left:0;
     right:0;
-    background-color: rgba(255,255,255,.99);
+    background-color: rgba(255,255,255, 1);
     -webkit-transition: background-color 0.4s ease;
     -moz-transition: background-color 0.4s ease;
     -o-transition: background-color 0.4s ease;
@@ -63,7 +61,7 @@ a:hover {
 }
 
 #top-nav.dark-bg {
-    background-color : rgba(20,80,90,.8);
+    background-color : rgba(20,80,90,1);
     -webkit-transition: background-color 0.4s ease;
     -moz-transition: background-color 0.4s ease;
     -o-transition: background-color 0.4s ease;
@@ -74,11 +72,12 @@ a:hover {
     color: white;
 }
 
-#top-nav.dark-bg a:hover {
-    color: rgba(225,225,225,1);
+#top-nav a:hover, #top-nav li > a.active {
+    border-top: 4px solid;
+    padding-top: 2px;
 }
 
-li {
+#top-nav li {
     display: inline;
     padding:70px;
     font-size:50px;
@@ -87,10 +86,6 @@ li {
 .contact-icons {
     height:60px;
     padding:30px;
-}
-
-#top-nav li > a.active {
-    color:rgba(200,200,200,1);
 }
 
 #contact {
@@ -148,4 +143,25 @@ h2 {
     width: 80%;
     height: .5px;
     margin-bottom: 200px;
+}
+
+@media (max-width: 1000px) {
+    #top-nav li {
+        padding-left: 20px;
+        padding-right:20px;
+    }
+    #name {
+        font-size:70px;
+    }
+}
+
+@media (max-width: 600px) {
+    #top-nav li {
+        padding-left: 20px;
+        padding-right:20px;
+        font-size:30px;
+    }
+    .header-text {
+        width: 300px;
+    }
 }
