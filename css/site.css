@@ -114,17 +114,11 @@ a {
     margin-left: -80px;
 }
 
-.game-image:hover {
-    opacity:1;
-    border: 5px solid #198006;
-    box-shadow: 4px 4px 5px #18590C;
-}
-
 .container {
     margin-bottom:5em;
 }
 
-.games {
+.projects {
     font-size:50px;
 }
 
@@ -135,9 +129,21 @@ a {
     line-height:50px;
 }
 
+#resume table {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom:300px;
+}
+#resume table td {
+    text-align: left;
+    padding: 15px 40px 15px 40px;
+}
 h2 {
     font-size:60px;
-    margin-bottom: -50px;
+}
+name {
+    font-family: 'Oswald';
+    font-size: 25px;
 }
 .my-line {
     width: 80%;
